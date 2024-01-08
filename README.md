@@ -17,10 +17,9 @@
 
 ## Table Of Contents
 
-- [Table Of Contents](#table-of-contents)
 - [About The Project](#about-the-project)
+  - [Built With](#built-with)
 - [Navigating The Repo](#navigating-this-repo)
-- [Built With](#built-with)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Interactive](#interactive)
@@ -29,9 +28,6 @@
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
   - [Creating A Pull Request](#creating-a-pull-request)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgements)
 
 ## About The Project
 
@@ -39,16 +35,7 @@ This is the starter template for the Next.js App Router Course. It contains the 
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
 
-## Navigating This Repo
-
-- **/app**: Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.
-- **/app/lib**: Contains functions used in your application, such as reusable utility functions and data fetching functions.
-- **/app/ui**: Contains all the UI components for your application, such as cards, tables, and forms. To save time, we've pre-styled these components for you.
-- **/public**: Contains all the static assets for your application, such as images.
-- **/scripts**: Contains a seeding script that you'll use to populate your database in a later chapter.
-- **Config Files**: You'll also notice config files such as next.config.js at the root of your application. Most of these files are created and pre-configured when you start a new project using create-next-app. You will not need to modify them in this course.
-
-## Built With
+### Built With
 
 - _Framework_ - Next.js
 - _Language_ - TypeScript
@@ -60,6 +47,15 @@ For more information, see the [course curriculum](https://nextjs.org/learn) on t
 - _Analytics_ - Vercel Analytics
 - _Linting_ - ESLint
 - _Formatting_ - Prettier
+
+## Navigating This Repo
+
+- **/app**: Contains all the routes, components, and logic for your application, this is where you'll be mostly working from.
+- **/app/lib**: Contains functions used in your application, such as reusable utility functions and data fetching functions.
+- **/app/ui**: Contains all the UI components for your application, such as cards, tables, and forms. To save time, we've pre-styled these components for you.
+- **/public**: Contains all the static assets for your application, such as images.
+- **/scripts**: Contains a seeding script that you'll use to populate your database in a later chapter.
+- **Config Files**: You'll also notice config files such as next.config.js at the root of your application. Most of these files are created and pre-configured when you start a new project using create-next-app. You will not need to modify them in this course.
 
 ## Getting Started
 
@@ -179,9 +175,3 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-## Authors
-
-- **Daniel Garcia** - _Full Stack Developer_ - [Daniel Garcia](https://github.com/danvgar/) - _All Work_
-
-## Acknowledgements
