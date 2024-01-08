@@ -1,4 +1,3 @@
-<br/>
 <img src="https://nextjs.org/_next/image?url=%2Flearn%2Fdark%2Fdashboard.png&w=3840&q=75&dpl=dpl_A8AJ5FwmLMU94D4JXDc9U5wQRc6m">
 
 <p align="center">
