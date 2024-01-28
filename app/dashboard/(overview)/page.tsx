@@ -10,8 +10,6 @@ export const metadata: Metadata = {
     title: 'Home',
 };
 
-
-
 export default async function Page() {
 
     return (
