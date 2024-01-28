@@ -12,6 +12,9 @@
     <br/>
     <br/>
     <a href="https://nextjs-dashboard-seven-drab-95.vercel.app/dashboard"><strong>View Demo »</strong></a>
+    <p align="center"><u>Demo Login:</u> <code>user@nextmail.com</code><br>
+<u>Demo Password:</u> <code>123456</code>
+    </p>
   </p>
 </p>
 
