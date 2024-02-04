@@ -1,13 +1,13 @@
-'use client';
+'use client'; // 'use client' required because we are using React Client Hooks.
 
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
 import { useSearchParams, usePathname, useRouter } from 'next/navigation';
 import { useDebouncedCallback } from 'use-debounce';
 
 export default function Search({ placeholder }: { placeholder: string }) {
-  const searchParams = useSearchParams();
-  const pathname = usePathname();
-  const { replace } = useRouter();
+  const searchParams = useSearchParams(); // useSearchParams- Allows you to access the parameters of the current URL. For example, the search params for this URL /dashboard/invoices?page=1&query=pending would look like this: {page: '1', query: 'pending'}.
+  const pathname = usePathname(); // usePathname - Lets you read the current URL's pathname. For example, for the route /dashboard/invoices, usePathname would return '/dashboard/invoices'.
+  const { replace } = useRouter(); // useRouter - Enables navigation between routes within client components programmatically. There are multiple methods you can use.
 
   const handleSearch = useDebouncedCallback((term) => {
     console.log(`Searching... ${term}`);
@@ -21,7 +21,7 @@ export default function Search({ placeholder }: { placeholder: string }) {
     }
 
     replace(`${pathname}?${params.toString()}`);
-  }, 300);
+  }, 300); // debounce by 0.3s. 
 
   return (
     <div className="relative flex flex-1 flex-shrink-0">
